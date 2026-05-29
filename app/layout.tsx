@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Omega Technical Solutions | Heavy Equipment | East Africa",
+  title: "Omega Technical Solutions | Industrial Weighing & Heavy Equipment | East Africa",
   description:
-    "East Africa's trusted partner for construction equipment rental, used machine trading, AMC services, and metal & steel distribution. 10+ years of operations headquartered in Nairobi, Kenya.",
+    "East Africa's premier industrial solutions provider. Baykon Authorized Distributor for industrial weighing systems, turnkey weighbridge solutions, certified AMC services, and heavy equipment trading — headquartered in Nairobi, Kenya.",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} antialiased`}>
+    <html lang="en" className={`${inter.variable} antialiased`}>
       <body>{children}</body>
     </html>
   );
