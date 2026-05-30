@@ -40,11 +40,11 @@ const domains = [
     badge: "Primary Focus",
     title: "Industrial Weighing & Infrastructure Automation",
     description:
-      "Omega acts as the definitive East African gateway for Baykon weighing solutions — designing, installing, and commissioning high-capacity systems built for sub-Saharan Africa's harshest operational environments.",
+      "Omega acts as the definitive East African gateway for Baykon weighing solutions, designing, installing, and commissioning high-capacity systems built for sub-Saharan Africa's harshest operational environments.",
     items: [
-      "Baykon Authorized Distribution — European-standard high-precision weighing terminals, indicators, and load-cell systems",
-      "Turnkey Weighbridge Solutions — Pit and surface-mounted multi-axle weighbridges for mining haulage and transport corridors",
-      "Industrial Data Systems — Integrated legal-for-trade data management and compliance infrastructure",
+      "Baykon Authorized Distribution: European-standard high-precision weighing terminals, indicators, and load-cell systems",
+      "Turnkey Weighbridge Solutions: Pit and surface-mounted multi-axle weighbridges for mining haulage and transport corridors",
+      "Industrial Data Systems: Integrated legal-for-trade data management and compliance infrastructure",
     ],
   },
   {
@@ -52,11 +52,11 @@ const domains = [
     badge: "Lifecycle Partner",
     title: "Comprehensive Lifecycle Engineering & AMCs",
     description:
-      "We do not just supply — we guarantee uptime. An elite team of field calibration and mechanical engineers deployed across East Africa, providing certified, round-the-clock maintenance coverage.",
+      "We do not just supply. We guarantee uptime. An elite team of field calibration and mechanical engineers deployed across East Africa, providing certified, round-the-clock maintenance coverage.",
     items: [
-      "Annual Maintenance Contracts — Scheduled calibration, legal-for-trade verification, structural checks, and preventive maintenance",
-      "Emergency Engineering Support — Round-the-clock technical intervention, sensor retrofitting, and structural repairs",
-      "Regulatory Compliance — Legal-for-trade certification and weights & measures documentation across all jurisdictions",
+      "Annual Maintenance Contracts: Scheduled calibration, legal-for-trade verification, structural checks, and preventive maintenance",
+      "Emergency Engineering Support: Round-the-clock technical intervention, sensor retrofitting, and structural repairs",
+      "Regulatory Compliance: Legal-for-trade certification and weights & measures documentation across all jurisdictions",
     ],
   },
   {
@@ -66,20 +66,20 @@ const domains = [
     description:
       "Leveraging deep regional networks across mining and civil construction, Omega's asset-trading division connects equipment owners with premium machinery across the East African corridor.",
     items: [
-      "New Equipment Procurement — Sourcing specialized earthmoving and material handling solutions for regional specifications",
-      "Certified Pre-Owned Fleet — Evaluating, reconditioning, and supplying excavators, wheel loaders, and dump trucks",
-      "Regional Logistics — Port clearance, cross-border transport compliance, and regulatory certifications",
+      "New Equipment Procurement: Sourcing specialized earthmoving and material handling solutions for regional specifications",
+      "Certified Pre-Owned Fleet: Evaluating, reconditioning, and supplying excavators, wheel loaders, and dump trucks",
+      "Regional Logistics: Port clearance, cross-border transport compliance, and regulatory certifications",
     ],
   },
 ];
 
 const weighbridgeProducts = [
   {
-    name: "Multi-Axle Truck Weighbridge",
+    name: "Multi Axle Truck Weighbridge",
     capacity: "Up to 150 t",
     length: "18 – 24 m",
     ip: "IP68",
-    description: "Heavy-duty static platform for articulated lorries and multi-axle trucks. Standard for quarry, cement, and aggregate sites.",
+    description: "Heavy duty static platform for articulated lorries and multi axle trucks. Standard for quarry, cement, and aggregate sites.",
     image: "https://www.endeavourkenya.co.ke/wp-content/uploads/2025/01/maxresdefault-1.jpg",
   },
   {
@@ -87,23 +87,23 @@ const weighbridgeProducts = [
     capacity: "Up to 150 t",
     length: "Custom",
     ip: "IP67",
-    description: "Factory-built steel sections assembled on-site. Faster installation and scalable platform for evolving capacity needs.",
+    description: "Factory built steel sections assembled on site. Faster installation and scalable platform for evolving capacity needs.",
     image: "https://www.endeavourkenya.co.ke/wp-content/uploads/2025/01/modular.jpg",
   },
   {
-    name: "Pit-Mounted Weighbridge",
+    name: "Pit Mounted Weighbridge",
     capacity: "Up to 150 t",
     length: "12 – 24 m",
     ip: "IP68",
-    description: "Flush-to-ground platform in a reinforced concrete pit. Preferred for permanent mining and cement plant installations.",
+    description: "Flush to ground platform in a reinforced concrete pit. Preferred for permanent mining and cement plant installations.",
     image: "https://cdn.baykon.com/prod/picture/1101202413434768553.webp",
   },
   {
-    name: "Surface-Mounted Weighbridge",
+    name: "Surface Mounted Weighbridge",
     capacity: "Up to 100 t",
     length: "12 – 18 m",
     ip: "IP65",
-    description: "Above-ground installation with approach ramps. Faster to deploy, ideal for transport corridors and industrial yards.",
+    description: "Above ground installation with approach ramps. Faster to deploy, ideal for transport corridors and industrial yards.",
     image: "https://cdn.baykon.com/prod/picture/2901202410020756159.webp",
   },
   {
@@ -111,7 +111,7 @@ const weighbridgeProducts = [
     capacity: "Up to 150 t",
     length: "18 – 24 m",
     ip: "IP67",
-    description: "ANPR camera-integrated weighstation with automated ticketing and remote data management. 24/7, no operator required.",
+    description: "ANPR camera integrated weighstation with automated ticketing and remote data management. 24/7, no operator required.",
     image: "https://www.endeavourkenya.co.ke/wp-content/uploads/2025/01/unmanned-weighbridge-solution.jpg",
   },
   {
@@ -119,7 +119,7 @@ const weighbridgeProducts = [
     capacity: "Up to 30 t / axle",
     length: "Portable",
     ip: "IP67",
-    description: "Lightweight pads for rapid on-site axle load verification. Used by enforcement agencies and quarry project sites.",
+    description: "Lightweight pads for rapid on site axle load verification. Used by enforcement agencies and quarry project sites.",
     image: "https://www.endeavourkenya.co.ke/wp-content/uploads/2025/01/weighind-pad.png",
   },
 ];
@@ -152,7 +152,7 @@ const amcModules = [
     title: "Weighbridge AMC",
     label: "Certified",
     items: [
-      "Periodic statutory calibration and legal-for-trade certification",
+      "Periodic statutory calibration and legal for trade certification",
       "Load cell inspection, testing, and replacement",
       "Indicator and software updates",
       "Regulatory compliance documentation and renewal",
@@ -169,18 +169,18 @@ const amcModules = [
       "Hydraulic system pressure testing and fluid analysis",
       "Drive system, belt, and bearing inspection",
       "Emergency breakdown response",
-      "OEM-specified spare parts procurement",
+      "OEM specified spare parts procurement",
     ],
   },
 ];
 
 const coverage = [
-  { country: "Kenya", flag: "🇰🇪", status: "HQ — Primary Market", notes: "10+ years of operations. Full infrastructure, engineering workshop, and established customer base in Nairobi.", hq: true },
-  { country: "Tanzania", flag: "🇹🇿", status: "Active — Weighing & Equipment", notes: "Established agent network and active cross-border weighing and equipment supply.", hq: false },
-  { country: "Uganda", flag: "🇺🇬", status: "Active — Industrial Supply", notes: "Regular weighing system and equipment deliveries to industrial and infrastructure projects.", hq: false },
-  { country: "Ethiopia", flag: "🇪🇹", status: "Active — Infrastructure Projects", notes: "Growing market with active weighbridge and equipment supply for road and dam construction.", hq: false },
-  { country: "Rwanda", flag: "🇷🇼", status: "Active — Construction Market", notes: "Weighing and equipment supply to construction and mining development projects.", hq: false },
-  { country: "South Sudan", flag: "🇸🇸", status: "Coverage — Project Basis", notes: "Cross-border project coverage with full regulatory and logistics support.", hq: false },
+  { country: "Kenya", flag: "🇰🇪", status: "HQ / Primary Market", notes: "10+ years of operations. Full infrastructure, engineering workshop, and established customer base in Nairobi.", hq: true },
+  { country: "Tanzania", flag: "🇹🇿", status: "Active /Weighing & Equipment", notes: "Established agent network and active cross-border weighing and equipment supply.", hq: false },
+  { country: "Uganda", flag: "🇺🇬", status: "Active /Industrial Supply", notes: "Regular weighing system and equipment deliveries to industrial and infrastructure projects.", hq: false },
+  { country: "Ethiopia", flag: "🇪🇹", status: "Active /Infrastructure Projects", notes: "Growing market with active weighbridge and equipment supply for road and dam construction.", hq: false },
+  { country: "Rwanda", flag: "🇷🇼", status: "Active /Construction Market", notes: "Weighing and equipment supply to construction and mining development projects.", hq: false },
+  { country: "South Sudan", flag: "🇸🇸", status: "Coverage / Project Basis", notes: "Cross-border project coverage with full regulatory and logistics support.", hq: false },
 ];
 
 export default function Home() {
@@ -192,7 +192,7 @@ export default function Home() {
       <section className="relative h-screen min-h-[680px] flex flex-col justify-end overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1800&q=85&auto=format&fit=crop"
-          alt="Large open-cast quarry operations"
+          alt="Large open cast quarry operations"
           fill
           className="object-cover"
           priority
@@ -201,15 +201,12 @@ export default function Home() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pb-20 w-full">
           <div className="max-w-3xl">
-            <p className="text-white/75 text-xs tracking-[0.3em] uppercase mb-6 font-medium">
-              Baykon Authorized Distributor · Nairobi, Kenya
-            </p>
             <h1 className="text-6xl sm:text-7xl lg:text-[88px] font-black text-white leading-[0.88] tracking-tight mb-8">
               Precision<br />
               <span className="text-blue-400">at Scale.</span>
             </h1>
             <p className="text-gray-300 text-lg max-w-lg leading-relaxed mb-10">
-              East Africa&apos;s primary authority on industrial weighing infrastructure, lifecycle engineering, and heavy equipment — mining, quarrying, cement, and civil construction.
+              East Africa&apos;s primary authority on industrial weighing infrastructure, lifecycle engineering, and heavy equipment across mining, quarrying, cement, and civil construction.
             </p>
             <div className="flex items-center gap-8">
               <a
@@ -270,7 +267,7 @@ export default function Home() {
             East Africa&apos;s Premier Industrial Solutions Provider
           </h2>
           <p className="text-gray-500 leading-relaxed mb-5">
-            As the Authorized Regional Distributor for Baykon — a global pioneer in industrial weighing technology — Omega delivers mission-critical heavy infrastructure solutions to the mining, quarrying, cement, and civil construction sectors.
+            As the Authorized Regional Distributor for Baykon, a global pioneer in industrial weighing technology, Omega delivers mission-critical heavy infrastructure solutions to the mining, quarrying, cement, and civil construction sectors.
           </p>
           <p className="text-gray-500 leading-relaxed mb-10">
             Beyond instrumentation, we are a comprehensive lifecycle partner: heavy machinery trading, calibration engineering, and structured Annual Maintenance Contracts across 6 East African markets.
@@ -328,10 +325,10 @@ export default function Home() {
                         {d.items.map((item, j) => (
                           <div key={j} className="border-l-2 border-blue-900 pl-3">
                             <p className="text-gray-300 text-xs font-semibold leading-snug">
-                              {item.split(" — ")[0]}
+                              {item.split(": ")[0]}
                             </p>
                             <p className="text-gray-600 text-xs mt-1 leading-snug">
-                              {item.split(" — ")[1]}
+                              {item.split(": ")[1]}
                             </p>
                           </div>
                         ))}
@@ -532,7 +529,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-md">
-              We do not just supply — we guarantee uptime. Field calibration and mechanical engineers deployed across East Africa, round-the-clock.
+              We do not just supply. We guarantee uptime. Field calibration and mechanical engineers deployed across East Africa, round the clock.
             </p>
           </div>
 
@@ -576,14 +573,14 @@ export default function Home() {
                 Heavy Construction Equipment Trading
               </h2>
               <p className="text-gray-500 leading-relaxed mb-10">
-                Deep regional networks across mining and civil construction — connecting equipment owners with premium machinery. New procurement to certified pre-owned, backed by full East African logistics.
+                Deep regional networks across mining and civil construction, connecting equipment owners with premium machinery. New procurement to certified pre-owned, backed by full East African logistics.
               </p>
 
               <div className="space-y-px mb-10">
                 {[
                   ["New Equipment Procurement", "Sourcing earthmoving and material handling solutions tailored to regional project specifications"],
-                  ["Certified Pre-Owned Fleet", "Evaluated, reconditioned, and warranted heavy machinery delivered across East Africa"],
-                  ["Cross-Border Logistics", "Port clearance, transport compliance, and local regulatory certifications handled end-to-end"],
+                  ["Certified Pre Owned Fleet", "Evaluated, reconditioned, and warranted heavy machinery delivered across East Africa"],
+                  ["Cross Border Logistics", "Port clearance, transport compliance, and local regulatory certifications handled end to end"],
                 ].map(([title, desc]) => (
                   <div key={title} className="flex gap-5 py-5 border-b border-gray-100 last:border-0 group">
                     <div className="w-0.5 bg-blue-700 shrink-0 self-stretch opacity-60 group-hover:opacity-100 transition-opacity" />
@@ -671,12 +668,12 @@ export default function Home() {
                 Ready to Partner With Omega?
               </h2>
               <p className="text-gray-500 leading-relaxed mb-12">
-                We welcome the opportunity to meet your team, conduct a facility visit, and present our complete partner profile — committed to representing your brand with professionalism across East Africa.
+                We welcome the opportunity to meet your team, conduct a facility visit, and present our complete partner profile, committed to representing your brand with professionalism across East Africa.
               </p>
 
               <div className="divide-y divide-gray-100">
                 {[
-                  ["Location", "Nairobi, Kenya — East Africa"],
+                  ["Location", "Nairobi, Kenya, East Africa"],
                   ["Phone / WhatsApp", "+254 700 000 000"],
                   ["Email", "sales@omegatech.co.ke"],
                   ["Website", "www.omegatech.co.ke"],
